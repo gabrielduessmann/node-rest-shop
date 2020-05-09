@@ -30,6 +30,9 @@ $ npm start  # nodemon server.js
 $ npm install --save morgan  # show the REST in terminal (ex: GET /orders/123 200)
 ```
 
+```bash
+$ npm install --save body-parser
+```
 
 
 ## License

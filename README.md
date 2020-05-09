@@ -24,18 +24,6 @@ $ npm start  # nodemon server.js
 $ npm install --save morgan  # show the REST in terminal (ex: GET /orders/123 200)
 ```
 
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

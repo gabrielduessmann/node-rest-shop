@@ -20,8 +20,21 @@ $ npm install --save-dev nodemon  # automatic restart server when change the cod
 $ npm start  # nodemon server.js
 ```
 
+```bash
+$ npm install --save morgan  # show the REST in terminal (ex: GET /orders/123 200)
+```
 
+```bash
 
+```
+
+```bash
+
+```
+
+```bash
+
+```
 
 
 ## License

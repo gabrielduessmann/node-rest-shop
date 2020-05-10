@@ -2,6 +2,19 @@
 const express = require('express');
 const app = express();
 
+// mongoose
+const mongoose = require('mongoose');
+// conect to mongo database
+mongoose.connect
+('mongodb+srv://user435:'+process.env.MONGO_ATLAS_PW
++'@node-rest-shop-revdc.mongodb.net/test?retryWrites=true&w=majority',
+{
+    useUnifiedTopology: true,
+    useNewUrlParser: true
+}
+);
+
+
 // morgan
 const morgan = require('morgan');
 app.use(morgan('dev'));
@@ -9,7 +22,7 @@ app.use(morgan('dev'));
 // body-parser
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
+app.use(bodyParser.json()); 
 
 app.use((req, res, next) => {
     res.header('Acess-Control-Allow-Origin', '*');

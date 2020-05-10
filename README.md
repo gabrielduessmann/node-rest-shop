@@ -34,6 +34,10 @@ $ npm install --save morgan  # show the REST in terminal (ex: GET /orders/123 20
 $ npm install --save body-parser
 ```
 
+```bash
+$ npm install --save mongoose  # mongodb manager
+```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

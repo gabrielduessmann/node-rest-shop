@@ -1,5 +1,8 @@
 # node files
 node_modules/
 
+# password to connect to the database
+nodemon.json
+
 # IDE
 .idea/

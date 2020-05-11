@@ -1,5 +1,5 @@
 {
     "env": {
-        "MONGO_ATLAS_PW": "your_password"
+        "MONGO_ATLAS_PW": "growDB5"
     }
 }

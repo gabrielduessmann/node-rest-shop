@@ -6,7 +6,7 @@ const app = express();
 const mongoose = require('mongoose');
 // conect to mongo database
 mongoose.connect
-('mongodb+srv://your_user:'+process.env.MONGO_ATLAS_PW
+('mongodb+srv://user435:'+process.env.MONGO_ATLAS_PW
 +'@node-rest-shop-revdc.mongodb.net/test?retryWrites=true&w=majority',
 {
     useUnifiedTopology: true,

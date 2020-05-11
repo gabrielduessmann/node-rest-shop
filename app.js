@@ -13,6 +13,7 @@ mongoose.connect
     useNewUrlParser: true
 }
 );
+mongoose.Promise = global.Promise;
 
 
 // morgan

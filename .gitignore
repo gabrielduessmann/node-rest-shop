@@ -8,4 +8,4 @@ nodemon.json
 .idea/
 
 # jpeg and png files
-uploads/*
+uploads/**

@@ -38,6 +38,10 @@ $ npm install --save body-parser
 $ npm install --save mongoose  # mongodb manager
 ```
 
+```bash
+$ npm install --save multer  # 
+```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

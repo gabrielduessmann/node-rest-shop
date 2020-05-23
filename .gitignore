@@ -6,3 +6,6 @@ nodemon.json
 
 # IDE
 .idea/
+
+# jpeg and png files
+uploads/*

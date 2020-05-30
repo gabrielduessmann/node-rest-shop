@@ -14,7 +14,7 @@ router.post('/signup', (req, res, next) => {
     })
     .exec()
     .then(user => {
-        if (user) {
+        if (user.length >= 1) {
             return res.status(409).json({
                 message: "E-mail already exists"
             });

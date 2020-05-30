@@ -39,7 +39,11 @@ $ npm install --save mongoose  # mongodb manager
 ```
 
 ```bash
-$ npm install --save multer  # 
+$ npm install --save multer  #
+```
+
+```bash
+$ npm install bcrypt --save # library to encrypt password 
 ```
 
 

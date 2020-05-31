@@ -5,6 +5,9 @@ const mongoose = require("mongoose");
 // encryption
 const bcrypt = require("bcrypt");
 
+// token
+const jwt = require("jsonwebtoken");
+
 const User = require('../models/user');
 
 // Sign up
@@ -67,8 +70,18 @@ router.post("/login", (req, res, next) => {
                 });
             }
             if (result) {
+                const token = jwt.sign({
+                    email: user.email,
+                    userId: user._id
+                }, 
+                process.env.JWT_KEY, 
+                {
+                    expiresIn: "1h"
+                }
+                );
                 return res.status(200).json({
-                    message: "Auth successful"
+                    message: "Auth successful.",
+                    token: token
                 });
             } else {
                 return res.status(404).json({

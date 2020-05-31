@@ -6,3 +6,6 @@ nodemon.json
 
 # IDE
 .idea/
+
+# files inside the folder uploads/
+uploads/
